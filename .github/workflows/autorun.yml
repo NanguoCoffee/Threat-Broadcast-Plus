@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 每 4 小时运行一次（UTC）
-    # - cron: '0 0/4 * * *'
-    - cron: '0 2 * * *' 
+    - cron: '0 0/4 * * *'
 
 # 允许流水线把生成的页面 / 数据库提交回仓库
 permissions:
